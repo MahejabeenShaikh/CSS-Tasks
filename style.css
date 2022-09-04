@@ -1,0 +1,234 @@
+body {
+  background-color: aliceblue;
+  margin-top: 2px;
+  margin-right: 0px;
+}
+h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xxx-large;
+  color: darkmagenta;
+  text-decoration: underline;
+}
+
+.box {
+  margin: 2px;
+  height: 50px;
+  width: 50px;
+}
+
+div {
+  border: dashed rgb(135, 9, 146) 3px;
+  height: 40vh;
+}
+
+#boxes1 {
+  border: solid 2px black;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#boxes2 {
+  border: solid 2px rgb(6, 6, 6);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+#boxes3 {
+  border: solid 2px rgb(4, 4, 4);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+#boxes4 {
+  border: solid 2px rgb(6, 6, 6);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+#boxes5 {
+  border: solid 2px rgb(16, 16, 16);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+#boxes6 {
+  border: solid 2px black;
+  height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+#boxes7 {
+  border: solid 2px rgb(7, 7, 7);
+  height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+#boxes8 {
+  border: solid 2px rgb(10, 10, 10);
+  height: 100px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+#boxes9 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#boxes10 {
+  border: solid 2px rgb(3, 3, 3);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#boxes11 {
+  border: solid 2px rgb(12, 12, 12);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#boxes12 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+#boxes13 {
+  border: solid 2px rgb(0, 0, 0);
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+#boxes14 {
+  border: solid 2px rgb(0, 0, 0);
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+#boxes15 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#boxes16 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+#boxes17 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#boxes18 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#boxes19 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#boxes20 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#boxes21 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+#boxes22 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+#boxes23 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+#boxes24 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+#boxes25 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+#boxes26 {
+  border: solid 2px black;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+#boxes27 {
+  border: solid 2px rgb(0, 0, 0);
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#boxes28 {
+  border: solid 2px rgb(0, 0, 0);
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#boxes29 {
+  border: solid 2px rgb(0, 0, 0);
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
