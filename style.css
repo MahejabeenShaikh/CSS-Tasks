@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(190, 127, 249);
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+}
+
+.Links ul{
+    display: flex;
+    list-style-type: none;
+    background-color: lightgrey;
+    width:80vw;
+    margin:5em auto;
+    padding: 2em;
+}
+ul li{
+    border-right: 2px solid black;
+}   
+
+ul a{
+    text-decoration: none;
+    margin: 1em;
+}
+
+@media only screen and (max-width: 1020px) {
+    /* for tablet screen */
+    body{
+        background-color: rgb(248, 123, 148);
+    }
+       
+}
+
+@media(min-width:1025px) and (max-width:1440px){
+    body{
+        background-color: rgb(99, 110, 214);
+    }
+    .Links ul{
+       display: flex;
+       width:50vw;
+       background-color: rgb(40, 52, 104);
+       justify-content: space-between;
+    }
+    ul li{
+        border-right: none;
+    }
+    li a{
+        color: white;
+        text-decoration: underline;
+        transition: all linear .2s;
+        background-origin: content-box;
+    }
+    ul li a:hover{
+        font-size: 1.3em;
+    }
+}
+
+@media(min-width:769px) and (max-width:1024px){
+    body{
+        background-color: rgb(200, 144, 238);
+    }
+    .Links ul{
+       display: flex;
+       width:70vw;
+       background-color: rgb(199, 72, 224);
+       justify-content: space-between;
+    }
+    ul li{
+        border-right: none;
+    }
+    li a{
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+@media(min-width:426px) and (max-width:768px){
+    body{
+        background-color: rgb(144, 177, 238);
+    }
+    .Links ul{
+       display: flex;
+       width:70vw;
+       justify-content: space-between;
+    }
+}
+
+@media(min-width:376px) and (max-width:425px){
+    body{
+        background-color: rgb(142, 238, 113);
+    }
+    .Links ul{
+       display: flex;
+       width:70vw;
+    }
+    
+    ul li{
+        margin:0 -.5em;
+        border-right: none;
+        padding:1em 0;
+    }
+}
+
+@media(min-width:326px) and (max-width:375px){
+    body{
+        background-color: rgb(238, 197, 144);
+    }
+    .Links{
+        width:80vw;
+    }
+    .Links ul{
+       display: flex;
+       flex-direction: column;
+       width:70vw;
+       margin:0;
+    }
+
+    ul li{
+        border-right: none;
+        padding:1em 0;
+        width:50vw;
+    }
+}
+
+@media(min-width:0) and (max-width:325px){
+    body{
+        background-color: lightgreen;
+    }
+
+    .Links ul{
+       display: flex;
+       flex-direction: column;
+       width:80vw;
+       margin:0;
+    }
+
+    ul li{
+        border-right: none;
+        padding:1em 0;
+        width:50vw;
+    }
+}
