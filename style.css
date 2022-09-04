@@ -1,0 +1,56 @@
+* {
+    background-color: rgb(205, 205, 133);
+}
+
+#box1 {
+    background-color: rgb(217, 135, 235);
+    padding: 30px;
+    border: 2px dotted black;
+
+}
+
+#box2 {
+    background-color: rgb(65, 190, 84);
+    padding: 30px;
+    width: 400px;
+    margin-top: 20px;
+    border: 2px dashed black;
+    position: relative;
+    top: -70px;
+    right : -40px;
+}
+
+a {
+    background-color: rgb(241, 66, 80);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+div+h1,a {
+    margin-top: -30px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(12, 13, 13);
+
+}
+
+ol,li {
+    background-color: rgb(208, 245, 96);
+    font-size: 20px;
+    width: cover;
+    padding: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+li {
+    color: rgb(3, 3, 3);
+}
