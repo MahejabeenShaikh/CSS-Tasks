@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbvF4oAMHA8OD-Bzy9KmVW73IeljJ-Gql0cA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.catImg {
+    margin: 0 10rem;
+}
+
+.catImg img{
+    height: 250px;
+    opacity: 0.8;
+}
+
+h1{
+    font-size: 75px;
+    color:rgb(122, 0, 131);
+    text-align: center;
+}
+
+.orderForm{
+    opacity: 0.8;
+    background-color: rgb(138, 74, 183);
+    text-align: center;
+    padding: 3rem;
+    width: 30vw;
+    margin: 2rem auto;
+}
+
+.orderForm input, textarea{
+    width: 80%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.orderForm input,textarea:focus {
+    outline-color: brown;
+}
