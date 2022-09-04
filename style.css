@@ -1,0 +1,22 @@
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    padding: 1em;
+    width: 30%;
+}
+
+.navbar ul li{
+    padding: 0 1em;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    color: rgb(202, 13, 79);
+    text-decoration: underline;
+}
+
+ 
