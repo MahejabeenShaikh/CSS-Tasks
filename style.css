@@ -1,0 +1,53 @@
+/* google fonts links*/
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,600&display=swap');
+
+
+html{
+	background: linear-gradient(90deg, rgb(21, 161, 171) 0%, rgb(202, 98, 121) 100%);
+}
+
+body{
+	margin:20px 100px;
+}
+
+.mainDiv h1{
+	font-size:30px;
+	text-align:center;
+}
+
+.mainDiv .blockCollcetions{
+	width:1100px;
+	padding:20px;
+	
+}
+
+.mainDiv .blockCollcetions #first{
+	font-family: 'EB Garamond', serif;
+}
+
+.mainDiv .blockCollcetions #third{
+	font-family: 'Waterfall', cursive;
+	font-size:30px;
+}
+
+.mainDiv .blockCollcetions a{
+	text-decoration:underline;
+	color:black;
+}
+
+.mainDiv .blockCollcetions a:hover{
+	color:rgb(76, 19, 219);
+}
+
+/* common three blocks */
+.mainDiv .blockCollcetions .common{
+	background-color:white;
+	padding:20px;
+	margin:30px 0;
+	border-radius:20px;
+}
+
+.mainDiv .blockCollcetions .common p{
+	text-align:justify;
+}
